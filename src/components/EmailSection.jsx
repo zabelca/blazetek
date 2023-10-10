@@ -50,7 +50,7 @@ const EmailSection = () => {
           to get back to you!
         </p>
         <div className='socials flex flex-row gap-2'>
-          <Link href="https://github.com/zabelca">
+          <Link href="https://github.com/zabelc">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/christopher-zabel/">
