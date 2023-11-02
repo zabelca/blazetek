@@ -66,11 +66,11 @@ const HeroSection = () => {
                 animate={{ opacity: 1, scale: 1}}
                 transition={{ duration: 0.5 }}
                 className="col-span-4 place-self-center mt-4 lg:mt-0">
-                <div className="rounded-full bg-[#181818] h-[250px] w-[250px] lg:w-[400px] lg:h-[400px] relative">
+                <div className="rounded-full bg-[#181818] h-[300px] w-[200px] lg:w-[400px] lg:h-[500px] relative">
                     <Image
-                        src="/images/yeti.png"
-                        alt="yeti"
-                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        src="/images/me.png"
+                        alt="Chris"
+                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full h-[300px] w-[200px] lg:w-[350px] lg:h-[450px] object-cover"
                         height={300}
                         width={300}
                     />
